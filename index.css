@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&family=Waterfall&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.box {
+  width: 100%;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bgDark {
+  background: #282a35;
+}
+.textWhite{
+    color: #fff;
+}
+.textBlack{
+    color: #222222;
+}
+.header {
+  font-size: 45px;
+}
+.description{
+    font-size: 18px;
+}
