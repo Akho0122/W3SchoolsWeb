@@ -21,9 +21,53 @@
 .textBlack{
     color: #222222;
 }
+.bgGreen{
+    background: #04AA6D;
+}
+.bgYellow{
+    background: #FFF4A3;
+}
 .header {
-  font-size: 45px;
+  font-size: 55px;
 }
 .description{
     font-size: 18px;
+}
+.btn{
+    font-size: 14px;
+    width: 140px;
+    padding: 9px 10px;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    transition: all .4s ease-in;
+}
+.btn:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.left{
+    flex-direction: column;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 30px;
+    width: 100%;
+}
+.right{
+    background: #E7E9EB;
+    flex-direction: column;
+    display: flex;
+    gap: 20px;
+    padding: 20px 10px 10px 10px;
+    border-radius: 8px;
+    width: 100%;
+}
+.code{
+    background: #282a35;
+}
+.rightHeader{
+    font-size: 24px;
+    font-weight: 500;
 }
